@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <style>
+        body{
+            padding: 0px;
+            margin:0px;
+            background-color: pink;
+            
+        }
+        .heart{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(241, 104, 118);
+            font-size: 20px;
+            
+            padding: 18px;
+        
+        }
+        .images{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            
+        }
+        .container{
+            padding: 20px;
+            margin: 20px;
+        }
+        img{
+            border-radius: 25px;
+            width: 190px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            
+        }
+        .images img:hover{
+            transform: scale(1.05);
+        }
+        .message{
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+            font-family: cursive;
+        }
+         @media (max-width: 600px) {
+            h1 {
+                font-size: 44px;
+            }
+
+            .images {
+                grid-template-columns: repeat(2, 1fr); /* 2 images per row on mobile */
+                gap: 10px;
+            }
+        }
+           
+
+    </style>
+</head>
+<body>
+    <Header class="heart">
+        <h1> Happy Valentine's Day ❤️</h1>
+    </Header>
+
+    <div class="container">
+        <div class="images">
+            <img src="/image/Boss 4.jpg" alt="" width="250">
+            <img src="/image/Boss 6.jpg" alt="" width="250">
+            <img src="/image/Boss 5.jpg" alt="" width="250">
+            <img src="/image/Boss 4.jpg" alt="" width="250">
+            <img src="/image/Boss 6.jpg" alt="" width="250">
+            <img src="/image/Boss 5.jpg" alt="" width="250">
+            <img src="/image/Boss 5.jpg" alt="" width="250">
+            <img src="/image/Boss 5.jpg" alt="" width="250">
+        </div>
+
+        <div class="message">
+            <h2> Title</h2>
+           
+        </div>
+
+    </div>
+    
+</body>
+</html>
